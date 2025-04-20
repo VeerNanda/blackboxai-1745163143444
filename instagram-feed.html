@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instagram Feed - Transverse Skin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --color-pink: #f9e6e7;
+      --color-cream: #fff9f5;
+      --color-gold: #d4af37;
+    }
+    .bg-pink { background-color: var(--color-pink); }
+    .bg-cream { background-color: var(--color-cream); }
+    .text-gold { color: var(--color-gold); }
+    .btn-gold {
+      background-color: var(--color-gold);
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+    .btn-gold:hover {
+      background-color: #b38b2f;
+    }
+  </style>
+</head>
+<body class="bg-cream font-['Roboto'] text-gray-800 min-h-screen flex flex-col">
+
+  <main class="container mx-auto px-6 py-16 max-w-5xl">
+    <h1 class="text-4xl font-playfair font-bold text-gold mb-12 text-center">Instagram Feed</h1>
+    <p class="text-center text-gray-700 mb-12">Follow us on Instagram for the latest updates and beauty inspiration.</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <!-- Placeholder Instagram images -->
+      <a href="https://instagram.com" target="_blank" rel="noopener" class="block rounded-lg overflow-hidden shadow-md hover:shadow-xl transition">
+        <img src="https://images.pexels.com/photos/3771081/pexels-photo-3771081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350" alt="Instagram 1" class="w-full h-48 object-cover" />
+      </a>
+      <a href="https://instagram.com" target="_blank" rel="noopener" class="block rounded-lg overflow-hidden shadow-md hover:shadow-xl transition">
+        <img src="https://images.pexels.com/photos/4056532/pexels-photo-4056532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350" alt="Instagram 2" class="w-full h-48 object-cover" />
+      </a>
+      <a href="https://instagram.com" target="_blank" rel="noopener" class="block rounded-lg overflow-hidden shadow-md hover:shadow-xl transition">
+        <img src="https://images.pexels.com/photos/4056533/pexels-photo-4056533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350" alt="Instagram 3" class="w-full h-48 object-cover" />
+      </a>
+      <a href="https://instagram.com" target="_blank" rel="noopener" class="block rounded-lg overflow-hidden shadow-md hover:shadow-xl transition">
+        <img src="https://images.pexels.com/photos/4056534/pexels-photo-4056534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350" alt="Instagram 4" class="w-full h-48 object-cover" />
+      </a>
+    </div>
+  </main>
+
+</body>
+</html>
